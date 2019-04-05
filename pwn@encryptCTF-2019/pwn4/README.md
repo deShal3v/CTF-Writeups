@@ -13,10 +13,10 @@ We can see that we have a stack canary. In this case, much better exploitation m
 
 let's run our exploit:
 
-	`(cat pwn4_exp.py ;cat) | nc 104.154.106.182 5678`
+	(python pwn4_exp.py ;cat) | nc 104.154.106.182 5678
 
 
 And finally we've got our flag:
 
-	`encryptCTF{Y0u_4R3_7h3_7ru3_King_0f_53v3n_KingD0ms}`
+	encryptCTF{Y0u_4R3_7h3_7ru3_King_0f_53v3n_KingD0ms}
 
