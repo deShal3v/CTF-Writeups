@@ -8,7 +8,7 @@ And disassembly the main function using gdb:
 
 ![](imgs/disass_main.png)
 
-We can see we have a canary enabled. In this case, much better exploitation matigition is to attack the GOT (Global Offset table), we can use this a format string attack which enables us to perform an arbitary write.
+We can see we have a canary enabled. In this case, much better exploitation matigition is to attack the GOT (Global Offset table). Let's use this format- string attack to perform an arbitary write and modify the GOT entry of printf which is got called after gets() .
 
 
 
