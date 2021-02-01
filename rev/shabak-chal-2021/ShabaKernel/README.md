@@ -1,0 +1,1 @@
+a special linux binary format was used for running an application. It's handler (kernel module) is given as well. After analysing the reverse engineering the kernel module I've debuged the virtul machine from the outside (kernel and user) and reversed the flag generation algorithem - and deduced the flag. I will add a detailed writeup  in the future. 
